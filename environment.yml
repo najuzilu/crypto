@@ -1,0 +1,19 @@
+name: crypto_report
+channels:
+- default
+- conda-forge
+dependencies:
+- python=3.8
+- boto3
+- requests
+- s3fs
+- pandas
+- numpy
+- psycopg2
+- black
+- flake8
+- pre_commit
+- airflow
+- apache-airflow-providers-amazon
+- apache-airflow-providers-postgres
+- apache-airflow-providers-cncf-kubernetes
