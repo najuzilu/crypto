@@ -8,6 +8,11 @@
     <h3 align="center">Monthly Cryptoasset Market Report & Outlook</h3>
 </p>
 
+## About
+
+This project is a data engineering capstone project that focuses on building a complete data pipeline. The goal is to solve a problem using data engineering techniques and develop a solution that incorporates best practices for data quality, scalability, and reliability. It utilizes APIs to extract data from Cryptowatch and NewsAPI to analyze the performance of cryptoassets in the last month.
+
+The data pipeline includes data ingestion, processing, and storage. The project retrieves all cryptoasset data for the last month using Cryptowatch REST API and retrieves all relevant news articles from last month using NewsAPI. The sentiment analysis is performed on the collection of articles using Amazon Comprehend, and the results are stored in Redshift staging tables for further analysis. The entire process is automated and scheduled through Apache Airflow to trigger on the first day of every month.
 
 ## Project Description
 
